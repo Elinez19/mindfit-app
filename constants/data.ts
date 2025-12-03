@@ -70,16 +70,16 @@ export const defaultOnboarding: Onboarding[] = [
 
 /* ---------- Gradient Colors ---------- */
 export const gradientColors = {
-  primary: ["#F5F3FF", "#EDE9FE", "#E0E7FF"] as const, // Soft lavender to light purple
+  primary: ["#FEF2F2", "#FEE2E2", "#FECACA"] as const, // Soft pink to light red
   secondary: [
-    "rgba(245, 243, 255, 0.95)", // soft lavender
-    "rgba(237, 233, 254, 0.85)", // light purple
-    "rgba(224, 231, 255, 0.75)", // pale blue
+    "rgba(254, 242, 242, 0.95)", // soft pink
+    "rgba(254, 226, 226, 0.85)", // light red
+    "rgba(254, 202, 202, 0.75)", // pale pink
   ] as const,
   cardOverlay: [
     "transparent",
-    "rgba(109, 40, 217, 0.5)", // soft purple overlay
-    "rgba(109, 40, 217, 0.45)",
+    "rgba(220, 38, 38, 0.5)", // soft red overlay
+    "rgba(220, 38, 38, 0.45)",
   ] as const,
 };
 /* ---------- Animation Constants ---------- */
@@ -108,7 +108,7 @@ export const heroBanners = [
     cta: "Book Now",
     image:
       "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&w=600&q=60",
-    color: ["#9333EA", "#C084FC"], // Therapeutic purple gradient
+    color: ["#DC2626", "#F87171"], // Therapeutic red gradient
   },
   {
     title: "24/7 Crisis Support",
@@ -211,7 +211,7 @@ export const benefits = [
     icon: "shield-checkmark-outline",
     title: "Licensed Professionals",
     description: "All therapists are licensed, certified, and background-checked",
-    color: "#9333EA", // Therapeutic purple
+    color: "#DC2626", // Therapeutic red
   },
   {
     id: "2",
@@ -244,7 +244,7 @@ export const specialOffers = [
     discount: "50% OFF",
     description: "Get 50% off your first therapy session",
     code: "WELCOME50",
-    color: ["#9333EA", "#C084FC"], // Therapeutic purple
+    color: ["#DC2626", "#F87171"], // Therapeutic red
     icon: "gift-outline",
   },
   {
@@ -346,7 +346,7 @@ export const exploreCategoriesWithImages = [
     serviceCount: 34,
     image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&w=600&q=60",
     icon: "person-outline",
-    color: "#9333EA", // Therapeutic purple
+    color: "#DC2626", // Therapeutic red
   },
   {
     id: "cat-2",
@@ -404,7 +404,7 @@ export const expertTips = [
     title: "Prioritize Sleep",
     description: "7-9 hours of quality sleep is essential for mental health and emotional regulation",
     icon: "moon-outline",
-    color: "#9333EA", // Therapeutic purple
+    color: "#DC2626", // Therapeutic red
   },
   {
     id: "tip-3",
